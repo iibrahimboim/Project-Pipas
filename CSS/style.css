@@ -400,6 +400,7 @@ section { padding: 90px 8vw; }
 }
 .member-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.6; font-weight: 300; }
 
+
 /* FOOTER */
 footer {
   background: #1a2a4a;
@@ -414,6 +415,19 @@ footer {
 .foot-brand { font-family: 'Syne', sans-serif; font-size: 1.4rem; font-weight: 800; color: #fff; }
 .foot-brand span { color: var(--green-light); }
 .foot-text { font-size: 0.8rem; color: rgba(255,255,255,0.65); margin-top: 4px; }
+.social-links { margin-top: 14px; display: flex; gap: 12px; }
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  transition: color 0.25s;
+}
+.social-icon:hover { color: var(--green-light); }
+.social-icon svg { flex-shrink: 0; }
 
 /* LIGHTBOX */
 .lightbox {
