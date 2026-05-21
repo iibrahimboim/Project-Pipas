@@ -416,7 +416,9 @@ footer {
 .foot-brand span { color: var(--green-light); }
 .foot-text { font-size: 0.8rem; color: rgba(255,255,255,0.65); margin-top: 4px; }
 .social-links { margin-top: 14px; display: flex; gap: 12px; }
-.social-icon {
+.social-icon,
+.social-icon:visited,
+.social-icon:active {
   display: inline-flex;
   align-items: center;
   gap: 7px;
@@ -426,7 +428,7 @@ footer {
   letter-spacing: 0.04em;
   transition: color 0.25s;
 }
-.social-icon:hover { color: var(--green-light); }
+.social-icon:hover { color: var(--green-light); text-decoration: none; }
 .social-icon svg { flex-shrink: 0; }
 
 /* LIGHTBOX */
