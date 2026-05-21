@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ekonomi Kreatif — Lab PPLG SMK Wikrama Bogor</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">PPLG <span>Wikrama</span></div>
+  <ul class="nav-links">
+    <li><a href="#tentang">Tentang</a></li>
+    <li><a href="#fasilitas">Fasilitas</a></li>
+    <li><a href="#ruangan">Ruangan</a></li>
+    <li><a href="#ekraf">Ekonomi Kreatif</a></li>
+    <li><a href="#kelompok">Kelompok 3</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg" style="background-image:url('img1.jpeg');"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-tag"><span></span> SMK Wikrama Bogor</div>
+    <h1>Lab <em>PPLG</em><br>Pusat Ekonomi<br>Kreatif Digital</h1>
+    <p class="hero-sub">Ruang inovasi teknologi informasi di SMK Wikrama Bogor — tempat lahirnya talenta digital yang siap memimpin ekonomi kreatif Indonesia.</p>
+    <div class="hero-cta">
+      <a href="#ruangan" class="btn-primary">Jelajahi Lab</a>
+      <a href="#ekraf" class="btn-ghost">Ekonomi Kreatif</a>
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section id="tentang">
+  <div class="section-label">Tentang Kami</div>
+  <div class="about-grid">
+    <div>
+      <h2 class="section-title reveal">Mengapa Lab PPLG Itu Istimewa?</h2>
+      <p class="section-body reveal">Program Keahlian Pengembangan Perangkat Lunak dan Gim (PPLG) di SMK Wikrama Bogor dirancang sebagai ekosistem belajar yang mendorong inovasi teknologi berbasis industri. Laboratorium kami bukan sekadar ruang kelas — ini adalah pusat kreatif digital.</p>
+      <p class="section-body reveal" style="margin-top:14px;">Dengan fasilitas modern berstandar industri, siswa tidak hanya belajar teori, tetapi langsung mempraktikkan pengembangan software, web, jaringan, dan produk digital bernilai ekonomi tinggi.</p>
+    </div>
+    <div class="about-img-wrap reveal">
+      <img src="img3.jpeg" alt="Lab PPLG" />
+      <div class="about-img-badge">Lab<br>Aktif<br>2024</div>
+    </div>
+  </div>
+</section>
+
+<!-- FASILITAS -->
+<section id="fasilitas" class="fasilitas">
+  <div class="section-label">Fasilitas</div>
+  <h2 class="section-title reveal">Tiga Wajah Lab PPLG</h2>
+  <p class="section-body reveal">Setiap ruangan dirancang dengan fungsi khusus untuk mendukung proses pembelajaran yang optimal.</p>
+  <div class="facility-grid">
+    <div class="facility-card reveal" onclick="openLightbox('img1')">
+      <img src="img1.jpeg" alt="Lab Coding" />
+      <div class="facility-overlay">
+        <div class="facility-num">01 / Lab Coding</div>
+        <div class="facility-name">Studio Pengembangan Perangkat Lunak</div>
+        <div class="facility-desc">iMac dan laptop berjaringan, meja modular heksagonal untuk kolaborasi tim pengembangan.</div>
+      </div>
+    </div>
+    <div class="facility-card reveal" onclick="openLightbox('img2')">
+      <img src="img2.jpeg" alt="Lab PPLG IMMOBI" />
+      <div class="facility-overlay">
+        <div class="facility-num">02 / Lab PPLG IMMOBI</div>
+        <div class="facility-name">Ruang Lab PPLG IMMOBI</div>
+        <div class="facility-desc">Ruangan lab khusus PPLG dengan fasilitas lengkap untuk kegiatan belajar mengajar program IMMOBI.</div>
+      </div>
+    </div>
+    <div class="facility-card reveal" onclick="openLightbox('img3')">
+      <img src="img3.jpeg" alt="Lab Modern" />
+      <div class="facility-overlay">
+        <div class="facility-num">03 / Lab Modern</div>
+        <div class="facility-name">Ruang Kolaborasi & Inovasi</div>
+        <div class="facility-desc">Pencahayaan indirect LED, cluster iMac melingkar, dan dinding kaca panoramik.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RUANGAN -->
+<section id="ruangan" class="room-detail">
+  <div class="section-label">Inventaris</div>
+  <h2 class="section-title reveal">Apa Saja yang Ada di Dalam Lab?</h2>
+  <div class="room-tabs reveal">
+    <button class="room-tab active" onclick="switchTab(0)">Lab Coding</button>
+    <button class="room-tab" onclick="switchTab(1)">Lab PPLG IMMOBI</button>
+    <button class="room-tab" onclick="switchTab(2)">Lab Modern</button>
+  </div>
+  <div class="tab-content active" id="tab0">
+    <div>
+      <p class="tab-desc">Lab utama coding PPLG dengan iMac premium dan laptop siswa. Pencahayaan alami dari jendela besar menciptakan suasana kerja yang produktif.</p>
+      <ul class="items-list">
+        <li>🖥️ <strong>iMac All-in-One</strong> — Desktop Apple untuk pengembangan aplikasi dan pemrograman profesional</li>
+        <li>💻 <strong>Laptop Siswa</strong> — Setiap meja dilengkapi laptop untuk coding mandiri maupun kolaborasi</li>
+        <li>🪑 <strong>Meja Modular Heksagonal</strong> — Layout sarang lebah, ideal untuk diskusi kelompok</li>
+        <li>🟢 <strong>Kursi Ergonomis</strong> — Warna hijau khas PPLG, nyaman untuk sesi panjang</li>
+        <li>📋 <strong>Whiteboard</strong> — Media presentasi dan brainstorming</li>
+        <li>🌐 <strong>Internet Cepat</strong> — Wi-Fi dan LAN berkecepatan tinggi di seluruh unit</li>
+        <li>🛠️ <strong>IDE Profesional</strong> — VS Code, Sublime Text, dan tools pengembangan terinstal</li>
+      </ul>
+    </div>
+    <div class="tab-img"><img src="img1.jpeg" alt="Lab Coding" /></div>
+  </div>
+  <div class="tab-content" id="tab1">
+    <div>
+      <p class="tab-desc">Lab PPLG IMMOBI adalah ruang belajar khusus program PPLG di SMK Wikrama Bogor. Dirancang untuk mendukung kegiatan praktik dan pengembangan kompetensi digital siswa secara optimal.</p>
+      <ul class="items-list">
+        <li>🖥️ <strong>Komputer Siswa</strong> — Unit komputer lengkap untuk setiap siswa dalam kegiatan praktik</li>
+        <li>📚 <strong>Meja & Kursi Ergonomis</strong> — Perabot nyaman yang mendukung sesi belajar panjang</li>
+        <li>📺 <strong>Layar Proyektor</strong> — Media presentasi dan demonstrasi materi oleh guru</li>
+        <li>🌐 <strong>Jaringan Internet</strong> — Koneksi LAN dan Wi-Fi stabil untuk seluruh perangkat</li>
+        <li>💡 <strong>Pencahayaan Terang</strong> — Sistem lampu yang nyaman untuk kenyamanan belajar</li>
+        <li>🛠️ <strong>Software Pendukung</strong> — Tools dan aplikasi sesuai kurikulum PPLG terinstal</li>
+        <li>👨‍🏫 <strong>Meja Instruktur</strong> — Area khusus guru untuk memantau dan membimbing siswa</li>
+      </ul>
+    </div>
+    <div class="tab-img"><img src="img2.jpeg" alt="Lab PPLG IMMOBI" /></div>
+  </div>
+  <div class="tab-content" id="tab2">
+    <div>
+      <p class="tab-desc">Lab modern dengan interior premium — indirect LED ceiling, lantai granit, dan layout terbuka yang menjadi ikon kebanggaan PPLG Wikrama.</p>
+      <ul class="items-list">
+        <li>🍎 <strong>Cluster iMac</strong> — Meja melingkar 4 unit iMac untuk kerja kolaboratif</li>
+        <li>💚 <strong>Kursi Ergonomis</strong> — Kombinasi hijau dan hitam yang segar dan energik</li>
+        <li>💡 <strong>Indirect LED Ceiling</strong> — Pencahayaan tersembunyi di tepi plafon, suasana premium</li>
+        <li>🪟 <strong>Dinding Kaca Panoramik</strong> — Jendela lebar di tiga sisi, cahaya alami maksimal</li>
+        <li>📊 <strong>Layar Presentasi</strong> — Papan dan layar untuk presentasi proyek siswa</li>
+        <li>⚡ <strong>Power Management</strong> — Instalasi listrik terstruktur seluruh perangkat</li>
+        <li>🌿 <strong>Suasana Biophilic</strong> — Pemandangan hijau luar mendukung kreativitas</li>
+      </ul>
+    </div>
+    <div class="tab-img"><img src="img3.jpeg" alt="Lab Modern" /></div>
+  </div>
+</section>
+
+<!-- EKONOMI KREATIF -->
+<section id="ekraf" style="background: var(--dark2);">
+  <div class="section-label">Ekonomi Kreatif</div>
+  <h2 class="section-title reveal">Lab PPLG sebagai Motor Ekonomi Kreatif</h2>
+  <p class="section-body reveal">Ekonomi kreatif digital adalah sektor dengan pertumbuhan tercepat di Indonesia. Lab PPLG mempersiapkan generasi muda menjadi aktor utama ekosistem ini.</p>
+  <div class="ekonomi-grid">
+    <div class="ek-card reveal"><div class="ek-icon">💻</div><h3>Web & App Development</h3><p>Membangun produk digital — website, aplikasi mobile, dan sistem informasi bernilai jual tinggi di pasar startup Indonesia.</p></div>
+    <div class="ek-card reveal"><div class="ek-icon">🎮</div><h3>Game Development</h3><p>Pengembangan gim digital dengan Unity, Godot, dan tools game mobile berbasis Android sebagai industri hiburan dan edukasi.</p></div>
+    <div class="ek-card reveal"><div class="ek-icon">🎨</div><h3>UI/UX & Desain Digital</h3><p>Merancang antarmuka pengguna yang indah dan fungsional untuk produk-produk digital masa depan.</p></div>
+    <div class="ek-card reveal"><div class="ek-icon">🤖</div><h3>Kecerdasan Buatan & Data</h3><p>AI, machine learning, dan analisis data sebagai kompetensi masa depan peluang di industri teknologi kelas dunia.</p></div>
+    <div class="ek-card reveal"><div class="ek-icon">🚀</div><h3>Startup & Kewirausahaan</h3><p>Lab PPLG sebagai inkubator ide bisnis digital — dari MVP hingga produk yang siap dimonetisasi ke pasar.</p></div>
+  </div>
+</section>
+
+<!-- KELOMPOK 3 -->
+<section id="kelompok" class="kelompok">
+  <div class="section-label">Tim Pengerjaan</div>
+  <h2 class="section-title reveal">Kelompok 3</h2>
+  <p class="section-body reveal">Enam anggota dengan peran masing-masing dalam membangun website Ekonomi Kreatif Lab PPLG SMK Wikrama Bogor ini.</p>
+  <div class="member-grid">
+
+    <div class="member-card reveal">
+      <div class="member-photo"><img src="boim.png" alt="Anggota 1" /></div>
+      <div class="member-info">
+        <div class="member-name">Maulana Ibrahim Hadad</div>
+        <div class="member-role">Project Manager & Lead Developer</div>
+        <div class="member-desc">Bertanggung jawab atas koordinasi tim, pembagian tugas, dan pengembangan struktur utama halaman HTML serta logika JavaScript keseluruhan website.</div>
+      </div>
+    </div>
+
+    <div class="member-card reveal">
+      <div class="member-photo"><img src="gerrad.jpeg" alt="Anggota 2" /></div>
+      <div class="member-info">
+        <div class="member-name">Nama Anggota 2</div>
+        <div class="member-role">UI Designer & CSS Stylist</div>
+        <div class="member-desc">Merancang tampilan visual website, memilih palet warna, tipografi, layout halaman, dan mengimplementasikan seluruh styling menggunakan CSS.</div>
+      </div>
+    </div>
+
+    <div class="member-card reveal">
+      <div class="member-photo"><img src="gery.JPG" alt="Anggota 3" /></div>
+      <div class="member-info">
+        <div class="member-name">Ahmad Gerry Segoro Rino Putra</div>
+        <div class="member-role">Content Writer & Researcher</div>
+        <div class="member-desc">Menyusun konten teks seluruh halaman — mulai deskripsi Lab, penjelasan ekonomi kreatif, hingga inventaris fasilitas yang informatif dan relevan.</div>
+      </div>
+    </div>
+
+    <div class="member-card reveal">
+      <div class="member-photo"><img src="bunga.jpeg" alt="Anggota 4" /></div>
+      <div class="member-info">
+        <div class="member-name">Bunga Haerunisa</div>
+        <div class="member-role">Penyusun Laporan &amp; Dokumentasi</div>
+        <div class="member-desc">Bertugas mengisi dan menyusun dokumen laporan proyek secara lengkap — mulai dari latar belakang, tujuan, proses pengerjaan, hingga kesimpulan akhir kegiatan.</div>
+      </div>
+    </div>
+
+    <div class="member-card reveal">
+      <div class="member-photo"><img src="fathir.jpeg" alt="Anggota 5" /></div>
+      <div class="member-info">
+        <div class="member-name">Muhammad Fathir Farhatan</div>
+        <div class="member-role">JavaScript & Interactivity Dev</div>
+        <div class="member-desc">Mengembangkan fitur interaktif website: animasi scroll reveal, counter statistik, tab ruangan, lightbox galeri foto, dan efek navigasi dinamis.</div>
+      </div>
+    </div>
+
+    <div class="member-card reveal">
+      <div class="member-photo"><img src="karim.jpeg" alt="Anggota 6" /></div>
+      <div class="member-info">
+        <div class="member-name">Karim Faturahman</div>
+        <div class="member-role">Pencari Referensi &amp; Ide Kreatif</div>
+        <div class="member-desc">Mencari dan mengumpulkan referensi desain, konten, serta ide-ide kreatif sebagai inspirasi pengembangan website — memastikan tampilan dan isi website relevan dan menarik.</div>
+      </div>
+    </div>
+
+  </div>
+</section>  
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="foot-brand">PPLG <span>Wikrama</span></div>
+    <div class="foot-text">SMK Wikrama Bogor — Program Keahlian Pengembangan Perangkat Lunak dan Gim</div>
+  </div>
+  <div class="foot-right">
+    Jl. Raya Wangun No.21, Sindangsari<br>
+    Bogor Timur, Jawa Barat<br>
+    © 2026 SMK Wikrama Bogor
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">×</span>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<script src="JS/script.js"></script>
+</body>
+</html>
